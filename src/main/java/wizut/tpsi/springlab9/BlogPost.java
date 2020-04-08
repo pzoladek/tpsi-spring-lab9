@@ -12,6 +12,8 @@ public class BlogPost {
         this.content = content;
     }
 
+    public BlogPost() {}
+
     public Long getId() {
         return id;
     }
